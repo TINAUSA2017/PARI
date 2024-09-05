@@ -1,0 +1,216 @@
+
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pari Soleimani's Resume - Agile Leadership and Product Expert">
+    <title>Pari Soleimani | Agile Leadership</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Professional Apple-style look */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #f5f5f7;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background-color: #000;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 42px;
+            font-weight: bold;
+        }
+
+        header p {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+
+        /* Main content */
+        main {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            font-size: 28px;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 10px;
+            color: #555;
+        }
+
+        p,
+        ul {
+            font-size: 18px;
+            color: #444;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        ul li strong {
+            font-weight: bold;
+            color: #333;
+        }
+
+        /* Skills Section */
+        .skills ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .skills ul li {
+            flex: 1 1 45%;
+            margin-bottom: 15px;
+        }
+
+        /* Contact Section */
+        .contact {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px 0;
+            background-color: #f1f1f1;
+        }
+
+        .contact a {
+            color: #0071e3;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #000;
+            color: white;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Pari Soleimani</h1>
+        <p>MBA, CSM®, CSPO® | Agile Leadership</p>
+    </header>
+
+    <main>
+
+        <!-- About Me Section -->
+        <section>
+            <h2>About Me</h2>
+            <p>
+                As a Product Expert at Apple, I’ve gained valuable experience in agile project and product management, supported by certifications as a Certified ScrumMaster (CSM), Certified Scrum Product Owner (CSPO), and an MBA degree. I have worked in both the dynamic environment of a startup and the structured setting at Apple, consistently delivering successful projects and products that exceed customer expectations and market demands.
+            </p>
+            <p>
+                My approach is rooted in a deep understanding of the software development life cycle, complemented by strong collaboration skills and a talent for creative problem-solving. I am passionate about delivering exceptional results and eager to continue leveraging my skills in product development.
+            </p>
+        </section>
+
+        <!-- Experience Section -->
+        <section>
+            <h2>Experience</h2>
+            <ul>
+                <li>
+                    <strong>Product Expert, Apple Inc.</strong> — Oct 2021 - Present (San Francisco Bay Area)
+                    <ul>
+                        <li>Utilized troubleshooting techniques to align solutions with customer needs.</li>
+                        <li>Collaborated across diverse teams to ensure high-quality customer-facing communications.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Product Manager, Span Technology Solutions</strong> — Aug 2018 - Jan 2021 (Toronto, Canada)
+                    <ul>
+                        <li>Led cross-functional teams to develop innovative digital products aligned with market needs.</li>
+                        <li>Directed digital marketing strategies, increasing website traffic by 35% and sales by 25%.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Project Lead, RBC</strong> — 2006 - 2014 (Toronto, Canada)
+                    <ul>
+                        <li>Managed critical projects aimed at reducing FX settlement risk for top financial institutions.</li>
+                        <li>Collaborated with stakeholders to deliver high-impact projects for JPMorgan Chase and US Bank.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Scrum & Agile Methodologies</li>
+                <li>Project & Product Management</li>
+                <li>Cross-functional Team Leadership</li>
+                <li>Digital Product Development</li>
+                <li>SEO & Digital Marketing</li>
+                <li>Problem-solving & Strategic Thinking</li>
+            </ul>
+        </section>
+
+        <!-- Education Section -->
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li><strong>MBA, San Jose State University</strong> — 2023 - 2025</li>
+                <li><strong>Degree in Management, Project Management</strong> — De Anza College, 2021</li>
+                <li><strong>AAS, Business/Communications</strong> — Centennial College, 2006</li>
+                <li><strong>B.S. in Computer Science</strong> — Azad University</li>
+            </ul>
+        </section>
+
+        <!-- Certifications Section -->
+        <section>
+            <h2>Certifications</h2>
+            <ul>
+                <li>Certified ScrumMaster® (CSM®)</li>
+                <li>Certified Scrum Product Owner® (CSPO®)</li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <div class="contact">
+            <p>Connect with me on <a href="https://www.linkedin.com">LinkedIn</a> or email me at <a href="mailto:parisoleimani@email.com">parisoleimani@email.com</a></p>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Pari Soleimani. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
